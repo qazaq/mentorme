@@ -7,7 +7,7 @@
         <li class="current-user-avatar"><%= link_to(avatar_for(current_user, size: 35) , current_user) %></li>
         <li class="sign-out"><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></li>
       <% else %>
-        <li><%= link_to "Sign In/ Sign Up", new_user_session_path, class: "button" %></li>
+        <li><%= link_to "Sign In/ Sign Up", new_user_session_path %></li>
       <% end %>
   </div>
 </nav>
