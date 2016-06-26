@@ -2,8 +2,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-//Modules
+
 @import "modules/buttons";
 
-//AvatarUploader
-@import 'modules/avatar'
+@import 'modules/avatar';
+
+@import "modules/post_panel";
+@import "modules/header";
